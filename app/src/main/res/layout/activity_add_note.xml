@@ -8,19 +8,31 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="302dp"
         android:layout_height="wrap_content"
-        android:text="note title"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"/>
+        android:hint="Note Title"
+        android:id="@+id/note_title"
+        android:textSize="40dp" />
 
     <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/note_text"
+        android:hint="add your note text here"
+        android:textSize="20sp" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="add your note text here"
+        android:text="save"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"/>
-
+        android:id="@+id/btn_save"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
